@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #585858;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -16,7 +16,7 @@ body {
  }
 
 .topmenu {
-  color: lightgray;
+  color: Black;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -37,7 +37,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  color: rgb(174, 201, 233);
+  color: rgb(62, 121, 192);
   font-size: 30px;
 }
 
@@ -62,7 +62,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #bf8f0c;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
