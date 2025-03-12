@@ -1,11 +1,29 @@
+
+/*backgound image*/
 body {
+  background-image: url("https://cdn.pixabay.com/photo/2024/05/26/12/03/ai-generated-8788658_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: relative;
+  margin: 0;
+  padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Navigation Bar */
 
+/*.overlay{}*/
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: rgb(0, 0, 0); /* colore del testo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ombra nera */
+}
+
+/* Navigation Bar */
 #home {
-  background-color:  #585858;
+  background-color:  #000000;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -13,10 +31,10 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
- }
+}
 
 .topmenu {
-  color: Black;
+  color: rgb(62, 121, 192);
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -94,22 +112,28 @@ h2 {
 }
 
 #about-me h1 {
-  font-size: 65px;
+  font-size: 50px;;
   margin-top: 90px;
-  color: #7600bc;
+  color: #bf8f0c;
 }
 
 #about-me p {
+  font-family: cursive;
+  font-style: italic;
   font-size: 25px;
-  color: rgb(128, 128, 128);
+  color: rgb(62, 121, 192);
+
   margin-top: -1cm;
 }
 
 .profile_image {
-  width: 550px;
+  width: 50px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  margin-top: 60px;
+  margin-left: -100px;
+  margin-right: 50px;
 }
 
 /* Skills */
